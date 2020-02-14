@@ -1,0 +1,23 @@
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | COSI166 Jace Yang</title>
+  </head>
+  <body>
+    <h1>PA1 Rails</h1>
+    <h2>By Jace Yang</h2>
+    <p>
+      Instructors Info
+      <%= link_to "Click here", "/instructors" %>
+    <p>
+    <p>
+      Subjects Info
+      <%= link_to "Click here", "/subjects" %>
+    </p>
+    <p>
+      Courses Info
+      <%= link_to "Click here", "/courses" %>
+    <p>
+  </body>
+</html>
