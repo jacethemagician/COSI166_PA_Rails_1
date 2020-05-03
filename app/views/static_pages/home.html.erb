@@ -5,19 +5,46 @@
     <title><%= yield(:title) %> | COSI166 Jace Yang</title>
   </head>
   <body>
-    <h1>PA1 Rails</h1>
-    <h2>By Jace Yang</h2>
-    <p>
-      Instructors Info
-      <%= link_to "Click here", "/instructors" %>
-    <p>
-    <p>
-      Subjects Info
-      <%= link_to "Click here", "/subjects" %>
-    </p>
-    <p>
-      Courses Info
-      <%= link_to "Click here", "/courses" %>
-    <p>
+    <div class='container', style='padding-top:50px'>
+      <div class='row'>
+        <h1>PA1 Rails</h1>
+      </div>
+      <div class='row'>
+        <h2>By Jace Yang</h2>
+      </div>
+      <div class='row'>
+        <div class="col-sm">
+          <h3>Instructors Info</h3>
+          <%= link_to "Click here", "/instructors" %>
+        </div>
+        <div class="col-sm">
+          <h3>Subjects Info</h3>
+          <%= link_to "Click here", "/subjects" %>
+        </div>
+        <div class="col-sm">
+          <h3>Courses Info</h3>
+          <%= link_to "Click here", "/courses" %>
+        </div>
+      </div>
+      <div class='row', style='padding-top:30px'>
+        <h2> HELLO!!!!</h2>
+      </div>
+      <div class='row', style='padding-top:30px;color:blue'>
+        <h2> HELLO!!!!</h2>
+      </div>
+      <div class='row', style='padding-top:30px;color:yellow'>
+        <h2> HELLO!!!!</h2>
+      </div>
+      <div class='row', style='padding-top:30px;color:red'>
+        <h2> HELLO!!!!</h2>
+      </div>
+      <div class='row', style='padding-top:30px;color:green'>
+        <h2> HELLO!!!!</h2>
+      </div>
+      <div class='row', style='padding-top:30px;color:purple'>
+        <h2> HELLO!!!!</h2>
+      </div>
+
+    </div>
   </body>
 </html>
