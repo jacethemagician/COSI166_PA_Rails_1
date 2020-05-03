@@ -65,3 +65,4 @@ gem 'awesome_print'
 gem 'hirb'
 
 gem 'bootstrap'
+gem 'bootstrap-sass'
